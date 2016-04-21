@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="textcolorhint">#B2B2B2</color>
+    <color name="BORDER_COLOR">#E6E6E6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightblue">#02A9FA</color>
+    <color name="highlight_lightblue">#41E8FA</color>
+    <color name="item_bgcolor">#EBF4FC</color>
+    <color name="item_fontcolor">#B7B7B7</color>
+    <color name="line">#E9E9E9</color>
+    <color name="TEXT_TITLE">#323232</color>
+    <color name="TEXT_VALUE">#646464</color>
+    <color name="MAINNAVTAB_NORMAL">#848484</color>
+    <color name="MAINNAVTAB_HILIGHT">#fabd02</color>
+    <color name="MAINNAVTAB_BORDER">#EBEBEB</color>
+    <color name="MYCOLLECT_PRICE">#fa5504</color>
+    <color name="MYCOLLECT_BTN">#f39800</color>
+    <color name="Registe_navi_bg">#02a9fa</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#fabd02</color>
+
+</resources>

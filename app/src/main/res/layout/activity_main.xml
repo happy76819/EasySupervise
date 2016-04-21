@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.es.easysupervise.MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    >
+    <ScrollView
+        android:id="@+id/scvBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/imgHead"
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:layout_marginTop="60dp"
+               android:layout_centerHorizontal="true"
+               android:background="@drawable/circle_head"
+               android:src="@drawable/headdefault"
+               />
+
+           <LinearLayout
+               android:id="@+id/llName"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_below="@+id/imgHead"
+               android:layout_marginTop="50dp"
+               android:layout_marginLeft="60dp"
+               android:layout_marginRight="60dp"
+               android:background="@drawable/corner_normal_bg"
+               >
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2"
+                   android:layout_marginLeft="5dp"
+                   android:gravity="center"
+                   >
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/usernamelogo"
+                       />
+               </RelativeLayout>
+
+               <EditText
+                   android:id="@+id/edtName"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="8"
+                   android:hint="@string/EDTNAME"
+                   android:textColorHint="@color/textcolorhint"
+                   android:layout_marginRight="5dp"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/black"
+                   android:background="@null"
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:id="@+id/llPWD"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_below="@+id/llName"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="60dp"
+               android:layout_marginRight="60dp"
+               android:background="@drawable/corner_normal_bg"
+
+               >
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2"
+                   android:layout_marginLeft="5dp"
+                   android:gravity="center"
+                   >
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/pwdlogo"
+                       />
+               </RelativeLayout>
+
+               <EditText
+                   android:id="@+id/edtPwd"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="8"
+                   android:hint="@string/EDTPWD"
+                   android:textColorHint="@color/textcolorhint"
+                   android:layout_marginRight="5dp"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/black"
+                   android:inputType="textPassword"
+                   android:password="true"
+                   android:background="@null"
+                   />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llLogin"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:orientation="horizontal"
+               android:layout_below="@+id/llPWD"
+               android:layout_marginTop="15dp"
+               android:layout_marginLeft="50dp"
+               android:layout_marginRight="50dp"
+               android:gravity="center_vertical"
+               >
+               <Button
+                   android:id="@+id/btnLogin"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="@drawable/btn_login_bg"
+                   android:text="@string/BTNLOGIN"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="5dp"
+                   />
+               <Button
+                   android:id="@+id/btnForget"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="@drawable/normal_btn_bg"
+                   android:text="@string/BTNFORGET"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="5dp"
+                   android:textColor="@color/textcolorhint"
+                   />
+
+           </LinearLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/llLogin"
+               android:layout_marginTop="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="2dp"
+                   android:background="#F3F3F3"
+                   android:layout_centerVertical="true"/>
+               <Button
+                   android:id="@+id/btnRegister"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:layout_centerHorizontal="true"
+                   android:text="@string/BTNREGISTER"
+                   android:textColor="@color/lightblue"
+                   android:background="@color/white"
+                   />
+           </RelativeLayout>
+
+
+       </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

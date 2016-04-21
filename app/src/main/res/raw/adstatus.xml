@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GBK"?>
+<ROWSET>
+  <ROW>
+    <fwmb_ID>0</fwmb_ID>
+    <fwmb_NAME>请选择...</fwmb_NAME>
+  </ROW>
+  <ROW>
+    <fwmb_ID>1007</fwmb_ID>
+    <fwmb_NAME>临时检查</fwmb_NAME>
+  </ROW>
+  <ROW>
+    <fwmb_ID>1006</fwmb_ID>
+    <fwmb_NAME>画面褪色</fwmb_NAME>
+  </ROW>
+  <ROW>
+    <fwmb_ID>1005</fwmb_ID>
+    <fwmb_NAME>画面刮掉</fwmb_NAME>
+  </ROW>
+  <ROW>
+    <fwmb_ID>1001</fwmb_ID>
+    <fwmb_NAME>画面损坏</fwmb_NAME>
+  </ROW>
+  <ROW>
+    <fwmb_ID>1000</fwmb_ID>
+    <fwmb_NAME>完好无损</fwmb_NAME>
+  </ROW>
+</ROWSET>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">易监测</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="EDTNAME">用户名</string>
+    <string name="EDTPWD">密码</string>
+    <string name="EDTPWD2">确认密码</string>
+    <string name="BTNLOGIN">登录</string>
+    <string name="BTNREGISTER">立即注册</string>
+    <string name="BTNFORGET">忘记密码</string>
+    <string name="BTNDOREGISTER">确认注册</string>
+    <string name="INPUTUSERNAME">请输入用户名</string>、
+    <string name="INPUTPHONE">请输入手机号</string>
+    <string name="INPUTPWD">请输入密码</string>
+    <string name="INPUTVERIFYCODE">请输入验证码</string>
+    <string name="BTNGETVERIFYCODE">点击获取</string>
+    <string name="AGREEMENT">我同意《平台使用协议》</string>
+    <string name="NO_CAMERA">您没有摄像头</string>
+    <string name="NEXTSTEP">下一步</string>
+    <string name="MAKESURE">确定</string>
+    <string name="COLLECT">采集用户</string>
+    <string name="SUPERVISE">监测用户</string>
+    <string name="EPAI">易牌用户</string>
+    <string name="NAVCOLLECT">采集</string>
+    <string name="NAVSEARCH">交易</string>
+    <string name="NAVSUPERVISE">监测</string>
+    <string name="NAVMAKESURE">审核</string>
+    <string name="MENU1">我的位置</string>
+    <string name="MENU2">我的任务</string>
+    <string name="MENU3">附近的牌</string>
+    <string name="MENU4">发现</string>
+    <string name="MENU5">设置</string>
+    <string name="MENU6">帮助和反馈</string>
+    <string name="MENU7">收藏夹</string>
+    <string name="SETTING_ADD">常用地址</string>
+    <string name="SETTING_LAW">法律条款</string>
+    <string name="SETTING_AUDIO">音效开关</string>
+    <string name="SETTING_VERSION">版本更行</string>
+    <string name="SETTING_HELP">帮助与反馈</string>
+    <string name="SETTING_GUIDE">用户指南</string>
+    <string name="SETTING_ABOUT">关于小易</string>
+    <string name="PLSINPUT_HOME">请输入家庭住址</string>
+    <string name="PLSINPUT_COMPANY">请输入公司地址</string>
+    <string name="HELPFEEDBACK_TITLE">近期常见问题</string>
+    <string name="CLICK_GET">点击获取</string>
+
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="intell_bd_title">智能播报</string>
+    <string name="app_id">566ebce3</string>
+
+
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">放开刷新</string>
+    <string name="header_hint_refresh_loading">加载中&#8230;</string>
+    <string name="header_hint_refresh_time">上次更新时间：</string>
+    <string name="footer_hint_load_normal">上拉加载更多</string>
+    <string name="footer_hint_load_ready">放开加载更多</string>
+
+</resources>
